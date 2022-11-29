@@ -7,6 +7,7 @@
 <body>
 <ul>
   <!--중괄호가 두 개 있으면 Converter 적용한다.-->
+  <!--thymeleaf th:field => 자동으로 컨버전 서비스도 적용 된다-->
   <li>${number}: <span th:text="${number}" ></span></li>
   <li>${{number}}: <span th:text="${{number}}" ></span></li>
   <li>${ipPort}: <span th:text="${ipPort}" ></span></li>
